@@ -53,7 +53,7 @@ export default function Card() {
 
             {/* Button */}
             <div className="col-span-2 xl:col-span-1 flex items-center order-4">
-                <button className="font-bold py-2 px-10 w-full xl:w-auto rounded-[8px] bg-gradient-to-r from-[#6600FF] to-[#00E5FF]">
+                <button className="font-bold py-2 px-10 w-full xl:w-auto rounded-[8px] bg-gradient-to-r from-[#6600FF] to-[#00E5FF] cursor-pointer">
                     Get Bonus
                 </button>
             </div>
