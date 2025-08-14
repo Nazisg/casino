@@ -10,8 +10,16 @@ export default function Header() {
       <header className="fixed top-0 left-0 w-full bg-[#020008] z-50 shadow-lg">
         <nav className="relative max-w-7xl mx-auto flex items-center justify-between py-5 px-6">
           {/* Logo */}
-          <div className="text-xl font-bold text-white">LOGO</div>
-
+          <a
+            href="#"
+            className="text-xl font-bold text-white cursor-pointer"
+            onClick={(e) => {
+              e.preventDefault();
+              window.scrollTo({ top: 0, behavior: "smooth" });
+            }}
+          >
+            LOGO
+          </a>
           {/* Desktop Nav */}
           <ul className="absolute left-1/2 -translate-x-1/2 hidden md:flex space-x-8 font-bold text-white">
             <li><a href="#top-casinos">Top Casinos</a></li>
