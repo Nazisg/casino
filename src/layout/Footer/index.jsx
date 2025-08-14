@@ -14,7 +14,7 @@ export default function Footer() {
           </div>
 
           {/* Navigation Links */}
-          <ul className="flex flex-wrap gap-6 font-bold text-sm lg:text-base items-center justify-center">
+          <ul className="flex flex-wrap gap-6 font-bold text-sm lg:text-base items-center justify-center w-full">
             <li><a href="#top-casinos" >Top Casinos</a></li>
             <li><a href="#about-us" >About Us</a></li>
             <li><a href="#terms" >Terms & Conditions</a></li>
