@@ -18,7 +18,7 @@ export default function Header() {
               window.scrollTo({ top: 0, behavior: "smooth" });
             }}
           >
-            LOGO
+            <img src="/icons/casino-logo.jpg" alt="logo" className="lg:w-35 w-15" />
           </a>
           {/* Desktop Nav */}
           <ul className="absolute left-1/2 -translate-x-1/2 hidden md:flex space-x-8 font-bold text-white">

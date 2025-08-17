@@ -20,6 +20,9 @@ const helveticaNowDisplay = localFont({
 export const metadata = {
   title: "Casino",
   description: "Find the Best UK Online Casinos",
+  icons: {
+    icon: "/icons/casino-logo.jpg",
+  },
 };
 
 export default function RootLayout({ children }) {

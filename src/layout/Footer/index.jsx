@@ -1,3 +1,5 @@
+import { casinos } from "@/data/casinos";
+
 export default function Footer() {
   return (
     <footer className="px-4 pt-5 lg:pt-20 pb-5 text-white">
@@ -7,7 +9,7 @@ export default function Footer() {
         <div className="flex flex-col lg:flex-row justify-between items-start lg:items-center gap-5 lg:gap-10">
           {/* Brand Info */}
           <div className="max-w-lg">
-            <h2 className="font-bold text-xl lg:text-2xl mb-2">Brand Name</h2>
+            <h2 className="font-bold text-xl lg:text-2xl mb-2"><img src="/icons/casino-logo.jpg" alt="logo" className="w-30" /></h2>
             <p className="opacity-60 text-sm lg:text-base">
               Your trusted guide to the best online casinos in the UK. We review and compare top casino sites to help you find the perfect gaming experience with the best bonuses and promotions.
             </p>
@@ -23,8 +25,20 @@ export default function Footer() {
 
         {/* Middle Section: Placeholder Logos */}
         <div className="flex flex-wrap justify-center gap-5">
-          {Array.from({ length: 6 }).map((_, i) => (
-            <div key={i} className="bg-[#D9D9D9] w-[137px] h-[43px]"></div>
+          {casinos.map((casino, i) => (
+            <a
+              key={i}
+              href={casino.link}
+              target="_blank"
+              rel="noopener noreferrer"
+              className=" w-[137px] h-[43px] flex items-center justify-center rounded-md hover:scale-105 transition-transform"
+            >
+              <img
+                src={casino.icon}
+                alt={casino.name}
+                className="max-h-[30px] object-contain"
+              />
+            </a>
           ))}
         </div>
 
