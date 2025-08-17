@@ -3,9 +3,9 @@ export const casinos = [
         name: "SwiftCasino",
         icon: "/icons/casino-logo-1.png",
         rating: 4.9,
-        minDeposit: "€10",
+        minDeposit: "£10",
         methods: ["Visa", "MasterCard", "PayPal"],
-        bonus: "Up to €50 + 50 Free Spins",
+        bonus: "100% up to £75 + 50 free spins",
         link: "https://affiliates.highbonuses.com/click?pid=183&offer_id=3239",
     },
     {
@@ -23,7 +23,7 @@ export const casinos = [
         rating: 4.6,
         minDeposit: "£10",
         methods: ["Visa", "Skrill", "PayPal"],
-        bonus: "Welcome bonus + Free Spins",
+        bonus: "100% up to £200",
         link: "https://affiliates.highbonuses.com/click?pid=183&offer_id=3270",
     },
     {
@@ -32,7 +32,7 @@ export const casinos = [
         rating: 4.8,
         minDeposit: "£10",
         methods: ["Visa", "PayPal"],
-        bonus: "Free Spins + £300 Bonus",
+        bonus: "100% bonus up to £100",
         link: "https://affiliates.highbonuses.com/click?pid=183&offer_id=3278",
     },
     {
@@ -41,7 +41,7 @@ export const casinos = [
         rating: 4.9,
         minDeposit: "£10",
         methods: ["Visa", "PayPal"],
-        bonus: "100% bonus up to £50 + 50 Free Spins",
+        bonus: "100% up to £100 + 50 free spins",
         link: "https://affiliates.highbonuses.com/click?pid=183&offer_id=3279",
     },
 ];
