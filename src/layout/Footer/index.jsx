@@ -31,12 +31,12 @@ export default function Footer() {
               href={casino.link}
               target="_blank"
               rel="noopener noreferrer"
-              className=" w-[137px] h-[43px] flex items-center justify-center rounded-md hover:scale-105 transition-transform"
+              className=" w-[150px] h-[50px] flex items-center justify-center"
             >
               <img
                 src={casino.icon}
                 alt={casino.name}
-                className="max-h-[30px] object-contain"
+                className="w-full h-full object-contain"
               />
             </a>
           ))}

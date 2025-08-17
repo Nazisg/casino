@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function Card({ name, icon, rating, minDeposit, methods, bonus, link }) {
     return (
-        <div className="relative bg-[#101010] rounded-[12px] xl:p-8 py-2 grid xl:grid-cols-5 grid-cols-2 gap-5">
+        <div className="relative bg-[#101010] rounded-[12px] xl:p-8 py-3 px-2 grid xl:grid-cols-5 grid-cols-2 gap-5">
             {/* Gradient bottom border */}
             <div className="absolute bottom-0 left-0 w-full h-[3px] bg-gradient-to-r from-[#6600FF] to-[#00E5FF] rounded-b-full"></div>
 
@@ -59,7 +59,7 @@ export default function Card({ name, icon, rating, minDeposit, methods, bonus, l
 
             {/* Button */}
             <div className="col-span-2 xl:col-span-1 flex items-center order-4">
-                <Link href={link} target="_blank" rel="noopener noreferrer">
+                <Link href={link} target="_blank" rel="noopener noreferrer" className="w-full xl:w-auto">
                     <button className="font-bold py-2 px-10 w-full xl:w-auto rounded-[8px] bg-gradient-to-r from-[#6600FF] to-[#00E5FF] cursor-pointer">
                         Get Bonus
                     </button>
